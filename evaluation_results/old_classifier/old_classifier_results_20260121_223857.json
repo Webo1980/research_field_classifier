@@ -1,0 +1,1025 @@
+{
+  "timestamp": "20260121_223857",
+  "metrics": {
+    "total_papers": 15,
+    "evaluated_papers": 15,
+    "top1_accuracy": 0.0,
+    "top5_accuracy": 0.13333333333333333,
+    "accuracy_score": 0.09333333333333332,
+    "avg_response_time_ms": 1304.7402222951252,
+    "avg_h_distance": 5.2
+  },
+  "results": [
+    {
+      "paper_id": "R700952",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 3,
+      "accuracy_score": 0.8,
+      "predictions": [
+        {
+          "field": "Instrumentation",
+          "field_id": "R117",
+          "score": 2.3703949451446533,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Astrophysics and Astronomy",
+            "Instrumentation"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.308784008026123,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.1603262424468994,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.058116912841797,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 1.9865914583206177,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1613.6250495910645
+    },
+    {
+      "paper_id": "R700920",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 4,
+      "accuracy_score": 0.6,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2101082801818848,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.84602689743042,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.6976542472839355,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.6321935653686523,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.511216878890991,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1496.077060699463
+    },
+    {
+      "paper_id": "R642635",
+      "ground_truth_id": "R112123",
+      "ground_truth_label": "Human Computer Interfaces",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Human Computer Interfaces"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.51134991645813,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.4486799240112305,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.1998724937438965,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.912393093109131,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.7698018550872803,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "response_time_ms": 1360.2924346923828
+    },
+    {
+      "paper_id": "R692195",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 4.015270709991455,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7966859340667725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.457303047180176,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.281597375869751,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.767794132232666,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 1272.6945877075195
+    },
+    {
+      "paper_id": "R651424",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.052412986755371,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.1758737564086914,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9605703353881836,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.8656013011932373,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.850468635559082,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 1210.8285427093506
+    },
+    {
+      "paper_id": "R228783",
+      "ground_truth_id": "R136173",
+      "ground_truth_label": "Ecology of Land Use",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Ecology of Land Use"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 4.576733589172363,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.987685203552246,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.8677258491516113,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.6905629634857178,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.0350754261016846,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1364.6471500396729
+    },
+    {
+      "paper_id": "R757010",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7706260681152344,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.670124053955078,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.571702480316162,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.456266403198242,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.433530330657959,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1178.4799098968506
+    },
+    {
+      "paper_id": "R756304",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 5.6391987800598145,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 5.364851951599121,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 4.929075241088867,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computational Engineering",
+          "field_id": "R277",
+          "score": 4.458032608032227,
+          "path": [
+            "Engineering",
+            "Computational Engineering"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.770989418029785,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1134.2103481292725
+    },
+    {
+      "paper_id": "R678672",
+      "ground_truth_id": "R31",
+      "ground_truth_label": "Public Health",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Medicine",
+        "Public Health, Health Services Research, Social Medicine"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.3909835815429688,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0947015285491943,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.081822395324707,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.9014317989349365,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5186610221862793,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 1209.8283767700195
+    },
+    {
+      "paper_id": "R659165",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2926576137542725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.089916467666626,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.943965196609497,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.782845973968506,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.6555142402648926,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "response_time_ms": 1277.3139476776123
+    },
+    {
+      "paper_id": "R640579",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.335263729095459,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.093238353729248,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.908287763595581,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9058334827423096,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.63995099067688,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "response_time_ms": 1422.1477508544922
+    },
+    {
+      "paper_id": "R753856",
+      "ground_truth_id": "R278",
+      "ground_truth_label": "Information Science",
+      "ground_truth_path": [
+        "Engineering",
+        "Information Science"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.928957939147949,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2853174209594727,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.25659441947937,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.171994924545288,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0372633934020996,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "response_time_ms": 1259.253740310669
+    },
+    {
+      "paper_id": "R148131",
+      "ground_truth_id": "R322",
+      "ground_truth_label": "Computational Linguistics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Linguistics",
+        "Computational Linguistics"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7611186504364014,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.033034563064575,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.822694778442383,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5494298934936523,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.522271156311035,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "response_time_ms": 1315.4122829437256
+    },
+    {
+      "paper_id": "R172170",
+      "ground_truth_id": "R303",
+      "ground_truth_label": "Behavioral Economics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Economics",
+        "Behavioral Economics"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.849365234375,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2142176628112793,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.862961530685425,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.783216953277588,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.670233964920044,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "response_time_ms": 1220.2279567718506
+    },
+    {
+      "paper_id": "R609861",
+      "ground_truth_id": "R33",
+      "ground_truth_label": "Epidemiology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Public Health",
+        "Epidemiology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Bioinformatics",
+          "field_id": "R104",
+          "score": 2.892927408218384,
+          "path": [
+            "Life Sciences",
+            "Bioinformatics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.8763980865478516,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 2.4258689880371094,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Engineering",
+          "field_id": "R239",
+          "score": 2.4186856746673584,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Computer Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Earth Sciences",
+          "field_id": "",
+          "score": 2.3954567909240723,
+          "path": [],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 1236.0641956329346
+    }
+  ]
+}

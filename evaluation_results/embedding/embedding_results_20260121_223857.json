@@ -1,0 +1,2195 @@
+{
+  "timestamp": "20260121_223857",
+  "approach": "embedding",
+  "metrics": {
+    "total_papers": 15,
+    "evaluated_papers": 15,
+    "top1_accuracy": 0.2,
+    "top5_accuracy": 0.4666666666666667,
+    "accuracy_score": 0.4,
+    "avg_response_time_ms": 2991.9076760609946,
+    "avg_llm_time_ms": 2090.49,
+    "total_tokens": 3493,
+    "avg_h_distance": 4.076923076923077
+  },
+  "old_metrics": {
+    "total_papers": 15,
+    "evaluated_papers": 15,
+    "top1_accuracy": 0.0,
+    "top5_accuracy": 0.13333333333333333,
+    "accuracy_score": 0.09333333333333332,
+    "avg_response_time_ms": 1304.7402222951252,
+    "avg_h_distance": 5.2
+  },
+  "results": [
+    {
+      "paper_id": "R700952",
+      "doi": "10.1007/s00330-021-07715-1",
+      "title": "A deep learning algorithm using CT images to screen for Corona virus disease (COVID-19)",
+      "abstract": "A deep learning algorithm using CT images to screen for Corona virus disease (COVID-19)",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 0.43393653455858405,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on the application of deep learning techniques for medical imaging. The primary methodology i",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Image and Video Processing",
+          "field_id": "R112133",
+          "score": 0.3778754639862127,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on the application of deep learning techniques for medical imaging. The primary methodology i",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Image and Video Processing"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.3057325699280588,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on the application of deep learning techniques for medical imaging. The primary methodology i",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Neural and Evolutionary Computing",
+          "field_id": "R112129",
+          "score": 0.30233388928201677,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on the application of deep learning techniques for medical imaging. The primary methodology i",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Neural and Evolutionary Computing"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Computational Neuroscience",
+          "field_id": "R61",
+          "score": 0.29615401739091995,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on the application of deep learning techniques for medical imaging. The primary methodology i",
+          "path": [
+            "Life Sciences",
+            "Neuroscience and Neurobiology",
+            "Computational Neuroscience"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 2976.7813682556152,
+      "llm_time_ms": 1961.46,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 163,
+      "output_tokens": 75,
+      "total_tokens": 238,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Instrumentation",
+          "field_id": "R117",
+          "score": 2.3703949451446533,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Astrophysics and Astronomy",
+            "Instrumentation"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.308784008026123,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.1603262424468994,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.058116912841797,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 1.9865914583206177,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": true,
+      "old_match_position": 3,
+      "old_accuracy_score": 0.8,
+      "old_response_time_ms": 1613.6250495910645
+    },
+    {
+      "paper_id": "R700920",
+      "doi": "10.1038/s41598-020-76282-0",
+      "title": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography",
+      "abstract": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 0.44578410962518267,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on medical imaging. The primary methodology employed is a deep learning-based model for image",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Image and Video Processing",
+          "field_id": "R112133",
+          "score": 0.33773886151539173,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on medical imaging. The primary methodology employed is a deep learning-based model for image",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Image and Video Processing"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Pneumology, Thoracic Surgery",
+          "field_id": "R136146",
+          "score": 0.31495239553852783,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on medical imaging. The primary methodology employed is a deep learning-based model for image",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Pneumology, Thoracic Surgery"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.3022622165486287,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on medical imaging. The primary methodology employed is a deep learning-based model for image",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Experimental Models for the Understanding of Nervous System Diseases",
+          "field_id": "R136166",
+          "score": 0.29211327285254635,
+          "reasoning": "This paper belongs to the research field of Computer Vision and Pattern Recognition, specifically focusing on medical imaging. The primary methodology employed is a deep learning-based model for image",
+          "path": [
+            "Life Sciences",
+            "Neuroscience and Neurobiology",
+            "Experimental Models for the Understanding of Nervous System Diseases"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 3398.669958114624,
+      "llm_time_ms": 2463.46,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 162,
+      "output_tokens": 85,
+      "total_tokens": 247,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2101082801818848,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.84602689743042,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.6976542472839355,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.6321935653686523,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.511216878890991,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": true,
+      "old_match_position": 4,
+      "old_accuracy_score": 0.6,
+      "old_response_time_ms": 1496.077060699463
+    },
+    {
+      "paper_id": "R642635",
+      "doi": "10.12688/f1000research.24164.1",
+      "title": "Online dashboard and data analysis approach for assessing COVID-19 case and death data",
+      "abstract": "Online dashboard and data analysis approach for assessing COVID-19 case and death data",
+      "ground_truth_id": "R112123",
+      "ground_truth_label": "Human Computer Interfaces",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Human Computer Interfaces"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Epidemiology",
+          "field_id": "R33",
+          "score": 0.4247278108580521,
+          "reasoning": "This paper belongs to the field of Computational Epidemiology, utilizing data analysis techniques to assess and visualize COVID-19 case and death statistics. The primary methodology involves the devel",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Epidemiology"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Epidemiology and Medical Biometry/Statistics",
+          "field_id": "R136134",
+          "score": 0.4200118724869517,
+          "reasoning": "This paper belongs to the field of Computational Epidemiology, utilizing data analysis techniques to assess and visualize COVID-19 case and death statistics. The primary methodology involves the devel",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Epidemiology and Medical Biometry/Statistics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Biostatistics",
+          "field_id": "R34",
+          "score": 0.4113389495453038,
+          "reasoning": "This paper belongs to the field of Computational Epidemiology, utilizing data analysis techniques to assess and visualize COVID-19 case and death statistics. The primary methodology involves the devel",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Biostatistics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Data Analysis, Statistics and Probability",
+          "field_id": "R114013",
+          "score": 0.36485161341784655,
+          "reasoning": "This paper belongs to the field of Computational Epidemiology, utilizing data analysis techniques to assess and visualize COVID-19 case and death statistics. The primary methodology involves the devel",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Physics",
+            "Data Analysis, Statistics and Probability"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Statistical Methodology",
+          "field_id": "R192",
+          "score": 0.36337602236379085,
+          "reasoning": "This paper belongs to the field of Computational Epidemiology, utilizing data analysis techniques to assess and visualize COVID-19 case and death statistics. The primary methodology involves the devel",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Statistics and Probability",
+            "Statistical Methodology"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 3429.457426071167,
+      "llm_time_ms": 2681.69,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 160,
+      "output_tokens": 77,
+      "total_tokens": 237,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.51134991645813,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.4486799240112305,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.1998724937438965,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.912393093109131,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.7698018550872803,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1360.2924346923828
+    },
+    {
+      "paper_id": "R692195",
+      "doi": "10.1038/s41467-023-44599-9",
+      "title": "A dynamic knowledge graph approach to distributed self-driving laboratories",
+      "abstract": "A dynamic knowledge graph approach to distributed self-driving laboratories",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.41982346823306943,
+          "reasoning": "This paper belongs to the research field of Machine Learning, specifically focusing on the development of methodologies for dynamic knowledge graphs. The application domain is in the context of self-d",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Dynamic Systems",
+          "field_id": "R110",
+          "score": 0.41171361717006577,
+          "reasoning": "This paper belongs to the research field of Machine Learning, specifically focusing on the development of methodologies for dynamic knowledge graphs. The application domain is in the context of self-d",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Applied Mathematics",
+            "Dynamic Systems"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Adaptation and Self-Organizing Systems",
+          "field_id": "R114000",
+          "score": 0.37062320651307123,
+          "reasoning": "This paper belongs to the research field of Machine Learning, specifically focusing on the development of methodologies for dynamic knowledge graphs. The application domain is in the context of self-d",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Physics",
+            "Nonlinear Sciences",
+            "Adaptation and Self-Organizing Systems"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Digital Libraries",
+          "field_id": "R112120",
+          "score": 0.3692935504408213,
+          "reasoning": "This paper belongs to the research field of Machine Learning, specifically focusing on the development of methodologies for dynamic knowledge graphs. The application domain is in the context of self-d",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Digital Libraries"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Information Systems, Process and Knowledge Management",
+          "field_id": "R137681",
+          "score": 0.3680821172275591,
+          "reasoning": "This paper belongs to the research field of Machine Learning, specifically focusing on the development of methodologies for dynamic knowledge graphs. The application domain is in the context of self-d",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Information Systems, Process and Knowledge Management"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 2644.5670127868652,
+      "llm_time_ms": 1648.78,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 155,
+      "output_tokens": 64,
+      "total_tokens": 219,
+      "h_distance": -1,
+      "old_predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 4.015270709991455,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7966859340667725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.457303047180176,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.281597375869751,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.767794132232666,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1272.6945877075195
+    },
+    {
+      "paper_id": "R651424",
+      "doi": "10.1007/s00799-021-00305-y",
+      "title": "CSO Classifier 3.0: a scalable unsupervised method for classifying documents in terms of research topics",
+      "abstract": "CSO Classifier 3.0: a scalable unsupervised method for classifying documents in terms of research topics",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 0.5131333465268246,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on text processing and natural language processing (NLP). The primary methodology employed is an unsupervised classi",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.5048970070117418,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on text processing and natural language processing (NLP). The primary methodology employed is an unsupervised classi",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Language Description/Documentation",
+          "field_id": "R326",
+          "score": 0.42650493294780284,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on text processing and natural language processing (NLP). The primary methodology employed is an unsupervised classi",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Language Description/Documentation"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Discourse/Text Linguistics",
+          "field_id": "R323",
+          "score": 0.42520798322105213,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on text processing and natural language processing (NLP). The primary methodology employed is an unsupervised classi",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Discourse/Text Linguistics"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Audio and Speech Processing",
+          "field_id": "R112132",
+          "score": 0.4219065587186367,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on text processing and natural language processing (NLP). The primary methodology employed is an unsupervised classi",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Audio and Speech Processing"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 3100.132703781128,
+      "llm_time_ms": 2118.41,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 169,
+      "output_tokens": 63,
+      "total_tokens": 232,
+      "h_distance": -1,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.052412986755371,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.1758737564086914,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9605703353881836,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.8656013011932373,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.850468635559082,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1210.8285427093506
+    },
+    {
+      "paper_id": "R228783",
+      "doi": "10.1186/s40538-021-00228-5",
+      "title": "Perennial forage legume cultivation and their above-ground mass management methods for weed suppression in arable organic cropping systems",
+      "abstract": "Perennial forage legume cultivation and their above-ground mass management methods for weed suppression in arable organic cropping systems",
+      "ground_truth_id": "R136173",
+      "ground_truth_label": "Ecology of Land Use",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Ecology of Land Use"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 4,
+      "accuracy_score": 0.6,
+      "predictions": [
+        {
+          "field": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+          "field_id": "R136177",
+          "score": 0.47950890112334804,
+          "reasoning": "This paper belongs to the field of Agricultural Science, specifically focusing on sustainable farming practices. The primary methodology involves the cultivation of perennial forage legumes and their ",
+          "path": [
+            "Life Sciences",
+            "Agriculture, Forestry and Veterinary Medicine",
+            "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+          ],
+          "h_distance": 2
+        },
+        {
+          "field": "Agronomy and Crop Sciences",
+          "field_id": "R98",
+          "score": 0.4476132234767568,
+          "reasoning": "This paper belongs to the field of Agricultural Science, specifically focusing on sustainable farming practices. The primary methodology involves the cultivation of perennial forage legumes and their ",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Agronomy and Crop Sciences"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Organismic Interactions, Chemical Ecology and Microbiomes of Plant Systems",
+          "field_id": "R136192",
+          "score": 0.42385929007678846,
+          "reasoning": "This paper belongs to the field of Agricultural Science, specifically focusing on sustainable farming practices. The primary methodology involves the cultivation of perennial forage legumes and their ",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Organismic Interactions, Chemical Ecology and Microbiomes of Plant Systems"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Ecology of Land Use",
+          "field_id": "R136173",
+          "score": 0.4226371784362782,
+          "reasoning": "This paper belongs to the field of Agricultural Science, specifically focusing on sustainable farming practices. The primary methodology involves the cultivation of perennial forage legumes and their ",
+          "path": [
+            "Life Sciences",
+            "Agriculture, Forestry and Veterinary Medicine",
+            "Ecology of Land Use"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Agricultural Economics, Agricultural Policy, Agricultural Sociology",
+          "field_id": "R136178",
+          "score": 0.3984946125050327,
+          "reasoning": "This paper belongs to the field of Agricultural Science, specifically focusing on sustainable farming practices. The primary methodology involves the cultivation of perennial forage legumes and their ",
+          "path": [
+            "Life Sciences",
+            "Agriculture, Forestry and Veterinary Medicine",
+            "Agricultural Economics, Agricultural Policy, Agricultural Sociology"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "response_time_ms": 3441.4706230163574,
+      "llm_time_ms": 2590.67,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 167,
+      "output_tokens": 69,
+      "total_tokens": 236,
+      "h_distance": 2,
+      "old_predictions": [
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 4.576733589172363,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.987685203552246,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.8677258491516113,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.6905629634857178,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.0350754261016846,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1364.6471500396729
+    },
+    {
+      "paper_id": "R757010",
+      "doi": "10.1007/s41060-022-00347-8",
+      "title": "From data to interpretable models: machine learning for soil moisture forecasting",
+      "abstract": "From data to interpretable models: machine learning for soil moisture forecasting",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 3,
+      "accuracy_score": 0.8,
+      "predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.5060221368680475,
+          "reasoning": "This paper belongs to the field of Machine Learning, specifically focusing on the development of algorithms for forecasting soil moisture. The primary methodology involves applying machine learning te",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Soil Science",
+          "field_id": "R153",
+          "score": 0.4293764888567712,
+          "reasoning": "This paper belongs to the field of Machine Learning, specifically focusing on the development of algorithms for forecasting soil moisture. The primary methodology involves applying machine learning te",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Soil Science"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+          "field_id": "R136177",
+          "score": 0.3583439590618563,
+          "reasoning": "This paper belongs to the field of Machine Learning, specifically focusing on the development of algorithms for forecasting soil moisture. The primary methodology involves applying machine learning te",
+          "path": [
+            "Life Sciences",
+            "Agriculture, Forestry and Veterinary Medicine",
+            "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Fresh Water Studies",
+          "field_id": "R170",
+          "score": 0.35734158068040955,
+          "reasoning": "This paper belongs to the field of Machine Learning, specifically focusing on the development of algorithms for forecasting soil moisture. The primary methodology involves applying machine learning te",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Oceanography and Atmospheric Sciences and Meteorology",
+            "Fresh Water Studies"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management",
+          "field_id": "R137642",
+          "score": 0.35637112818193567,
+          "reasoning": "This paper belongs to the field of Machine Learning, specifically focusing on the development of algorithms for forecasting soil moisture. The primary methodology involves applying machine learning te",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Water Research",
+            "Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 2983.8552474975586,
+      "llm_time_ms": 2154.03,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 158,
+      "output_tokens": 74,
+      "total_tokens": 232,
+      "h_distance": 7,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7706260681152344,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.670124053955078,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.571702480316162,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.456266403198242,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.433530330657959,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1178.4799098968506
+    },
+    {
+      "paper_id": "R756304",
+      "doi": "10.1007/s11440-023-02166-y",
+      "title": "A graph-based approach for modeling the soil–water retention curve of granular soils across the entire suction range",
+      "abstract": "A graph-based approach for modeling the soil–water retention curve of granular soils across the entire suction range",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Soil Science",
+          "field_id": "R153",
+          "score": 0.4668695858126934,
+          "reasoning": "This paper belongs to the field of Computational Soil Mechanics, specifically focusing on the modeling of soil properties using graph-based methodologies. The primary methodology involves graph-based ",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Soil Science"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Geotechnics, Hydraulic Engineering",
+          "field_id": "R137689",
+          "score": 0.4342809883336126,
+          "reasoning": "This paper belongs to the field of Computational Soil Mechanics, specifically focusing on the modeling of soil properties using graph-based methodologies. The primary methodology involves graph-based ",
+          "path": [
+            "Engineering",
+            "Civil and Environmental Engineering",
+            "Geotechnics, Hydraulic Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Geotechnical Engineering",
+          "field_id": "R228",
+          "score": 0.41558209456286804,
+          "reasoning": "This paper belongs to the field of Computational Soil Mechanics, specifically focusing on the modeling of soil properties using graph-based methodologies. The primary methodology involves graph-based ",
+          "path": [
+            "Engineering",
+            "Civil and Environmental Engineering",
+            "Geotechnical Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management",
+          "field_id": "R137642",
+          "score": 0.41090071583019044,
+          "reasoning": "This paper belongs to the field of Computational Soil Mechanics, specifically focusing on the modeling of soil properties using graph-based methodologies. The primary methodology involves graph-based ",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Water Research",
+            "Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer-Aided Design of Materials and Simulation of Materials Behaviour from  Atomic to Microscopic Scale",
+          "field_id": "R137669",
+          "score": 0.3828105980127921,
+          "reasoning": "This paper belongs to the field of Computational Soil Mechanics, specifically focusing on the modeling of soil properties using graph-based methodologies. The primary methodology involves graph-based ",
+          "path": [
+            "Engineering",
+            "Materials Science and Engineering",
+            "Computer-Aided Design of Materials and Simulation of Materials Behaviour from  Atomic to Microscopic Scale"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 3252.633810043335,
+      "llm_time_ms": 2431.15,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 165,
+      "output_tokens": 83,
+      "total_tokens": 248,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 5.6391987800598145,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 5.364851951599121,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 4.929075241088867,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computational Engineering",
+          "field_id": "R277",
+          "score": 4.458032608032227,
+          "path": [
+            "Engineering",
+            "Computational Engineering"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.770989418029785,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1134.2103481292725
+    },
+    {
+      "paper_id": "R678672",
+      "doi": "10.1038/s41598-023-34981-4",
+      "title": "From language models to large-scale food and biomedical knowledge graphs",
+      "abstract": "From language models to large-scale food and biomedical knowledge graphs",
+      "ground_truth_id": "R31",
+      "ground_truth_label": "Public Health",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Medicine",
+        "Public Health, Health Services Research, Social Medicine"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.44287013251614277,
+          "reasoning": "This paper belongs to the field of Computational Linguistics and Knowledge Representation. It primarily employs methodologies related to language model development and knowledge graph construction, fo",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Semantic Web",
+          "field_id": "R141823",
+          "score": 0.4386336236723997,
+          "reasoning": "This paper belongs to the field of Computational Linguistics and Knowledge Representation. It primarily employs methodologies related to language model development and knowledge graph construction, fo",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Semantic Web"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 0.4302044401651084,
+          "reasoning": "This paper belongs to the field of Computational Linguistics and Knowledge Representation. It primarily employs methodologies related to language model development and knowledge graph construction, fo",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Language Description/Documentation",
+          "field_id": "R326",
+          "score": 0.4163825540074482,
+          "reasoning": "This paper belongs to the field of Computational Linguistics and Knowledge Representation. It primarily employs methodologies related to language model development and knowledge graph construction, fo",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Language Description/Documentation"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computational Biology",
+          "field_id": "R36",
+          "score": 0.41027204754418595,
+          "reasoning": "This paper belongs to the field of Computational Linguistics and Knowledge Representation. It primarily employs methodologies related to language model development and knowledge graph construction, fo",
+          "path": [
+            "Life Sciences",
+            "Genetics and Genomics",
+            "Computational Biology"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 2612.8315925598145,
+      "llm_time_ms": 1792.29,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 156,
+      "output_tokens": 59,
+      "total_tokens": 215,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.3909835815429688,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0947015285491943,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.081822395324707,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.9014317989349365,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5186610221862793,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1209.8283767700195
+    },
+    {
+      "paper_id": "R659165",
+      "doi": "10.1007/s11761-022-00356-2",
+      "title": "A core IoT ontology for automation support in edge computing",
+      "abstract": "A core IoT ontology for automation support in edge computing",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Semantic Web",
+          "field_id": "R141823",
+          "score": 0.4512128425864505,
+          "reasoning": "This paper belongs to the field of Computer Science, specifically focusing on the Internet of Things (IoT) and edge computing. The primary methodology involves the development of an ontology to facili",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Semantic Web"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Automation, Control Systems, Robotics, Mechatronics, Cyber Physical Systems",
+          "field_id": "R137670",
+          "score": 0.4311360543303715,
+          "reasoning": "This paper belongs to the field of Computer Science, specifically focusing on the Internet of Things (IoT) and edge computing. The primary methodology involves the development of an ontology to facili",
+          "path": [
+            "Engineering",
+            "Operations Research, Systems Engineering and Industrial Engineering",
+            "Systems Engineering",
+            "Automation, Control Systems, Robotics, Mechatronics, Cyber Physical Systems"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Networking and Internet Architecture",
+          "field_id": "R112130",
+          "score": 0.40344774025681995,
+          "reasoning": "This paper belongs to the field of Computer Science, specifically focusing on the Internet of Things (IoT) and edge computing. The primary methodology involves the development of an ontology to facili",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "OS/Networks",
+            "Networking and Internet Architecture"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Security and Dependability",
+          "field_id": "R137678",
+          "score": 0.3834228696145638,
+          "reasoning": "This paper belongs to the field of Computer Science, specifically focusing on the Internet of Things (IoT) and edge computing. The primary methodology involves the development of an ontology to facili",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Security and Dependability"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Information Systems, Process and Knowledge Management",
+          "field_id": "R137681",
+          "score": 0.370684164468798,
+          "reasoning": "This paper belongs to the field of Computer Science, specifically focusing on the Internet of Things (IoT) and edge computing. The primary methodology involves the development of an ontology to facili",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Information Systems, Process and Knowledge Management"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 2776.0236263275146,
+      "llm_time_ms": 1820.94,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 156,
+      "output_tokens": 76,
+      "total_tokens": 232,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2926576137542725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.089916467666626,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.943965196609497,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.782845973968506,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.6555142402648926,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1277.3139476776123
+    },
+    {
+      "paper_id": "R640579",
+      "doi": "10.1038/s41598-023-31412-2",
+      "title": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+      "abstract": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 0.4607838699688858,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the application of large language models for text processing and analysis. The primary methodology involves lever",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.4416254038344573,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the application of large language models for text processing and analysis. The primary methodology involves lever",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Gastroenterology",
+          "field_id": "R136148",
+          "score": 0.41832816628313635,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the application of large language models for text processing and analysis. The primary methodology involves lever",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Gastroenterology"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Language Description/Documentation",
+          "field_id": "R326",
+          "score": 0.4035548927420061,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the application of large language models for text processing and analysis. The primary methodology involves lever",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Language Description/Documentation"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Experimental Models for the Understanding of Nervous System Diseases",
+          "field_id": "R136166",
+          "score": 0.38282561959490746,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the application of large language models for text processing and analysis. The primary methodology involves lever",
+          "path": [
+            "Life Sciences",
+            "Neuroscience and Neurobiology",
+            "Experimental Models for the Understanding of Nervous System Diseases"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 2630.075693130493,
+      "llm_time_ms": 1708.09,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 162,
+      "output_tokens": 76,
+      "total_tokens": 238,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.335263729095459,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.093238353729248,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.908287763595581,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9058334827423096,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.63995099067688,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1422.1477508544922
+    },
+    {
+      "paper_id": "R753856",
+      "doi": "10.1140/epjds/s13688-024-00467-0",
+      "title": "Multifaceted online coordinated behavior in the 2020 US presidential election",
+      "abstract": "Multifaceted online coordinated behavior in the 2020 US presidential election",
+      "ground_truth_id": "R278",
+      "ground_truth_label": "Information Science",
+      "ground_truth_path": [
+        "Engineering",
+        "Information Science"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.4509152307344065,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the analysis of online coordinated behavior during the 2020 US presidential election. The primary methodology inv",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Discourse/Text Linguistics",
+          "field_id": "R323",
+          "score": 0.4321957295769671,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the analysis of online coordinated behavior during the 2020 US presidential election. The primary methodology inv",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Discourse/Text Linguistics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "American Politics",
+          "field_id": "R333",
+          "score": 0.42118422586016546,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the analysis of online coordinated behavior during the 2020 US presidential election. The primary methodology inv",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Political Science",
+            "American Politics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Social Influence and Political Communication",
+          "field_id": "R300",
+          "score": 0.4091339524841194,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the analysis of online coordinated behavior during the 2020 US presidential election. The primary methodology inv",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Communication Sciences",
+            "Social Influence and Political Communication"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Psycholinguistics/Neurolinguistics",
+          "field_id": "R329",
+          "score": 0.4032867790065574,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the analysis of online coordinated behavior during the 2020 US presidential election. The primary methodology inv",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Psycholinguistics/Neurolinguistics"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 2757.4472427368164,
+      "llm_time_ms": 1895.51,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 159,
+      "output_tokens": 79,
+      "total_tokens": 238,
+      "h_distance": 5,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.928957939147949,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2853174209594727,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.25659441947937,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.171994924545288,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0372633934020996,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1259.253740310669
+    },
+    {
+      "paper_id": "R148131",
+      "doi": "10.1186/1471-2105-10-349",
+      "title": "Construction of an annotated corpus to support biomedical information extraction",
+      "abstract": "Construction of an annotated corpus to support biomedical information extraction",
+      "ground_truth_id": "R322",
+      "ground_truth_label": "Computational Linguistics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Linguistics",
+        "Computational Linguistics"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 3,
+      "accuracy_score": 0.8,
+      "predictions": [
+        {
+          "field": "Bioinformatics",
+          "field_id": "R104",
+          "score": 0.4579552734200387,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the development of annotated corpora for biomedical information extraction. The primary methodology involves text",
+          "path": [
+            "Life Sciences",
+            "Bioinformatics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Medical Informatics and Medical Bioinformatics",
+          "field_id": "R136138",
+          "score": 0.45322162380682485,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the development of annotated corpora for biomedical information extraction. The primary methodology involves text",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Medical Informatics and Medical Bioinformatics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.4300101124672705,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the development of annotated corpora for biomedical information extraction. The primary methodology involves text",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 0.4198754197349764,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the development of annotated corpora for biomedical information extraction. The primary methodology involves text",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Subcellular Processes",
+          "field_id": "R114148",
+          "score": 0.4049517416959252,
+          "reasoning": "This paper belongs to the field of Computational Linguistics, specifically focusing on the development of annotated corpora for biomedical information extraction. The primary methodology involves text",
+          "path": [
+            "Engineering",
+            "Biomedical Engineering and Bioengineering",
+            "Molecular, cellular, and tissue engineering",
+            "Subcellular Processes"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "response_time_ms": 3384.309768676758,
+      "llm_time_ms": 2375.6,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 155,
+      "output_tokens": 74,
+      "total_tokens": 229,
+      "h_distance": 5,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7611186504364014,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.033034563064575,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.822694778442383,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5494298934936523,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.522271156311035,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1315.4122829437256
+    },
+    {
+      "paper_id": "R172170",
+      "doi": "10.1007/s40881-021-00105-9",
+      "title": "Are women more generous than men? A meta-analysis",
+      "abstract": "Are women more generous than men? A meta-analysis",
+      "ground_truth_id": "R303",
+      "ground_truth_label": "Behavioral Economics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Economics",
+        "Behavioral Economics"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Behavioral Economics",
+          "field_id": "R303",
+          "score": 0.527135629161123,
+          "reasoning": "This paper belongs to the field of Social Psychology, specifically focusing on gender studies and behavioral economics. The primary methodology employed is meta-analysis, which synthesizes existing re",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Economics",
+            "Behavioral Economics"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Gender and Sexuality",
+          "field_id": "R357",
+          "score": 0.4741839716081547,
+          "reasoning": "This paper belongs to the field of Social Psychology, specifically focusing on gender studies and behavioral economics. The primary methodology employed is meta-analysis, which synthesizes existing re",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Sociology",
+            "Gender and Sexuality"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "General, Cognitive and Mathematical Psychology",
+          "field_id": "R136185",
+          "score": 0.46721685450118217,
+          "reasoning": "This paper belongs to the field of Social Psychology, specifically focusing on gender studies and behavioral economics. The primary methodology employed is meta-analysis, which synthesizes existing re",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Psychology",
+            "General, Cognitive and Mathematical Psychology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Social Psychology",
+          "field_id": "R353",
+          "score": 0.46436299961639005,
+          "reasoning": "This paper belongs to the field of Social Psychology, specifically focusing on gender studies and behavioral economics. The primary methodology employed is meta-analysis, which synthesizes existing re",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Psychology",
+            "Social Psychology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Econometrics",
+          "field_id": "R304",
+          "score": 0.4621327109431486,
+          "reasoning": "This paper belongs to the field of Social Psychology, specifically focusing on gender studies and behavioral economics. The primary methodology employed is meta-analysis, which synthesizes existing re",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Economics",
+            "Econometrics"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "response_time_ms": 3170.060396194458,
+      "llm_time_ms": 2168.19,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 155,
+      "output_tokens": 60,
+      "total_tokens": 215,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.849365234375,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2142176628112793,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.862961530685425,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.783216953277588,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.670233964920044,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1220.2279567718506
+    },
+    {
+      "paper_id": "R609861",
+      "doi": "10.1007/s10549-022-06828-5",
+      "title": "Changes in the survival of patients with breast cancer: Poland, 2000–2019",
+      "abstract": "Changes in the survival of patients with breast cancer: Poland, 2000–2019",
+      "ground_truth_id": "R33",
+      "ground_truth_label": "Epidemiology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Public Health",
+        "Epidemiology"
+      ],
+      "correct_top1": false,
+      "correct_top5": true,
+      "match_position": 3,
+      "accuracy_score": 0.8,
+      "predictions": [
+        {
+          "field": "Epidemiology and Medical Biometry/Statistics",
+          "field_id": "R136134",
+          "score": 0.42711857699308164,
+          "reasoning": "This paper belongs to the field of Virology, specifically focusing on the epidemiological analysis of breast cancer survival rates over a specified period in Poland. The primary methodology involves s",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Epidemiology and Medical Biometry/Statistics"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Biostatistics",
+          "field_id": "R34",
+          "score": 0.41277685408177606,
+          "reasoning": "This paper belongs to the field of Virology, specifically focusing on the epidemiological analysis of breast cancer survival rates over a specified period in Poland. The primary methodology involves s",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Biostatistics"
+          ],
+          "h_distance": 2
+        },
+        {
+          "field": "Epidemiology",
+          "field_id": "R33",
+          "score": 0.4015032344370075,
+          "reasoning": "This paper belongs to the field of Virology, specifically focusing on the epidemiological analysis of breast cancer survival rates over a specified period in Poland. The primary methodology involves s",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Epidemiology"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Cancer Biology",
+          "field_id": "R23",
+          "score": 0.3796859705825003,
+          "reasoning": "This paper belongs to the field of Virology, specifically focusing on the epidemiological analysis of breast cancer survival rates over a specified period in Poland. The primary methodology involves s",
+          "path": [
+            "Life Sciences",
+            "Cell and Developmental Biology",
+            "Cancer Biology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Biostatistics",
+          "field_id": "R189",
+          "score": 0.37145902723071755,
+          "reasoning": "This paper belongs to the field of Virology, specifically focusing on the epidemiological analysis of breast cancer survival rates over a specified period in Poland. The primary methodology involves s",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Statistics and Probability",
+            "Biostatistics"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 2320.298671722412,
+      "llm_time_ms": 1547.08,
+      "taxonomy_lookup_ms": 0,
+      "input_tokens": 163,
+      "output_tokens": 74,
+      "total_tokens": 237,
+      "h_distance": 4,
+      "old_predictions": [
+        {
+          "field": "Bioinformatics",
+          "field_id": "R104",
+          "score": 2.892927408218384,
+          "path": [
+            "Life Sciences",
+            "Bioinformatics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.8763980865478516,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 2.4258689880371094,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Engineering",
+          "field_id": "R239",
+          "score": 2.4186856746673584,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Computer Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Earth Sciences",
+          "field_id": "",
+          "score": 2.3954567909240723,
+          "path": [],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1236.0641956329346
+    }
+  ]
+}

@@ -1,0 +1,2189 @@
+{
+  "timestamp": "20260121_223857",
+  "approach": "single_shot",
+  "metrics": {
+    "total_papers": 15,
+    "evaluated_papers": 15,
+    "top1_accuracy": 0.2,
+    "top5_accuracy": 0.2,
+    "accuracy_score": 0.2,
+    "avg_response_time_ms": 4979.552952448527,
+    "avg_llm_time_ms": 4713.182,
+    "total_tokens": 166423,
+    "avg_h_distance": 4.0
+  },
+  "old_metrics": {
+    "total_papers": 15,
+    "evaluated_papers": 15,
+    "top1_accuracy": 0.0,
+    "top5_accuracy": 0.13333333333333333,
+    "accuracy_score": 0.09333333333333332,
+    "avg_response_time_ms": 1304.7402222951252,
+    "avg_h_distance": 5.2
+  },
+  "results": [
+    {
+      "paper_id": "R700952",
+      "doi": "10.1007/s00330-021-07715-1",
+      "title": "A deep learning algorithm using CT images to screen for Corona virus disease (COVID-19)",
+      "abstract": "A deep learning algorithm using CT images to screen for Corona virus disease (COVID-19)",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 0.95,
+          "reasoning": "The paper focuses on image analysis using CT images.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Virology",
+          "field_id": "R57",
+          "score": 0.85,
+          "reasoning": "The research is related to virus mechanisms, specifically COVID-19.",
+          "path": [
+            "Life Sciences",
+            "Microbiology",
+            "Virology"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.75,
+          "reasoning": "The use of deep learning suggests a connection to machine learning methods.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Graphics",
+          "field_id": "R136",
+          "score": 0.65,
+          "reasoning": "The paper may touch on aspects of computer sciences related to algorithms.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Graphics"
+          ],
+          "h_distance": 2
+        },
+        {
+          "field": "Nutritional Sciences",
+          "field_id": "R136137",
+          "score": 0.55,
+          "reasoning": "The study may relate to medical informatics in the context of COVID-19.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Nutritional Sciences"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 5521.08907699585,
+      "llm_time_ms": 5245.33,
+      "taxonomy_lookup_ms": 0.18,
+      "input_tokens": 10912,
+      "output_tokens": 188,
+      "total_tokens": 11100,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Instrumentation",
+          "field_id": "R117",
+          "score": 2.3703949451446533,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Astrophysics and Astronomy",
+            "Instrumentation"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.308784008026123,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.1603262424468994,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.058116912841797,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 1.9865914583206177,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": true,
+      "old_match_position": 3,
+      "old_accuracy_score": 0.8,
+      "old_response_time_ms": 1613.6250495910645
+    },
+    {
+      "paper_id": "R700920",
+      "doi": "10.1038/s41598-020-76282-0",
+      "title": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography",
+      "abstract": "Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography",
+      "ground_truth_id": "R112118",
+      "ground_truth_label": "Computer Vision and Pattern Recognition",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Computer Vision and Pattern Recognition"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 0.95,
+          "reasoning": "The paper focuses on image analysis using deep learning for CT scans.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Virology",
+          "field_id": "R57",
+          "score": 0.85,
+          "reasoning": "The research is related to coronavirus pneumonia, which falls under virology.",
+          "path": [
+            "Life Sciences",
+            "Microbiology",
+            "Virology"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Public Health, Health Services Research, Social Medicine",
+          "field_id": "R136135",
+          "score": 0.75,
+          "reasoning": "The study has implications for public health in the context of a viral outbreak.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Public Health, Health Services Research, Social Medicine"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.65,
+          "reasoning": "Deep learning methods are employed, which relates to machine learning.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Digital Libraries",
+          "field_id": "R112120",
+          "score": 0.55,
+          "reasoning": "The use of digital libraries may be relevant for accessing medical imaging data.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Digital Libraries"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "response_time_ms": 5706.963539123535,
+      "llm_time_ms": 5450.95,
+      "taxonomy_lookup_ms": 0.05,
+      "input_tokens": 10912,
+      "output_tokens": 192,
+      "total_tokens": 11104,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2101082801818848,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.84602689743042,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.6976542472839355,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.6321935653686523,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.511216878890991,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": true,
+      "old_match_position": 4,
+      "old_accuracy_score": 0.6,
+      "old_response_time_ms": 1496.077060699463
+    },
+    {
+      "paper_id": "R642635",
+      "doi": "10.12688/f1000research.24164.1",
+      "title": "Online dashboard and data analysis approach for assessing COVID-19 case and death data",
+      "abstract": "Online dashboard and data analysis approach for assessing COVID-19 case and death data",
+      "ground_truth_id": "R112123",
+      "ground_truth_label": "Human Computer Interfaces",
+      "ground_truth_path": [
+        "Physical Sciences & Mathematics",
+        "Computer Sciences",
+        "Human Computer Interfaces"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Epidemiology",
+          "field_id": "R33",
+          "score": 0.95,
+          "reasoning": "focus on public health and epidemiology related to COVID-19",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Epidemiology"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Epidemiology and Medical Biometry/Statistics",
+          "field_id": "R136134",
+          "score": 0.85,
+          "reasoning": "involves medical biometry/statistics relevant to COVID-19 data analysis",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Epidemiology and Medical Biometry/Statistics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Data Analysis, Statistics and Probability",
+          "field_id": "R114013",
+          "score": 0.75,
+          "reasoning": "involves data analysis and statistics",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Physics",
+            "Data Analysis, Statistics and Probability"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Public Health, Health Services Research, Social Medicine",
+          "field_id": "R136135",
+          "score": 0.65,
+          "reasoning": "related to health services research in the context of COVID-19",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Public Health, Health Services Research, Social Medicine"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Ordinary Differential Equations and Applied Dynamics",
+          "field_id": "R114",
+          "score": 0.55,
+          "reasoning": "applies numerical analysis methods for data assessment",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Applied Mathematics",
+            "Ordinary Differential Equations and Applied Dynamics"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 5137.872934341431,
+      "llm_time_ms": 4875.87,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10910,
+      "output_tokens": 177,
+      "total_tokens": 11087,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.51134991645813,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.4486799240112305,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.1998724937438965,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.912393093109131,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.7698018550872803,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1360.2924346923828
+    },
+    {
+      "paper_id": "R692195",
+      "doi": "10.1038/s41467-023-44599-9",
+      "title": "A dynamic knowledge graph approach to distributed self-driving laboratories",
+      "abstract": "A dynamic knowledge graph approach to distributed self-driving laboratories",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.95,
+          "reasoning": "The paper discusses a dynamic knowledge graph approach, which likely involves machine learning methods.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computers and Society",
+          "field_id": "R112119",
+          "score": 0.85,
+          "reasoning": "The topic relates to distributed systems, which can involve aspects of computer science and society.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computers and Society"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Digital Libraries",
+          "field_id": "R112120",
+          "score": 0.75,
+          "reasoning": "The use of knowledge graphs may relate to databases and information systems.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Digital Libraries"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 0.65,
+          "reasoning": "If the paper includes any image analysis related to self-driving technology.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Science General Literature",
+          "field_id": "R112121",
+          "score": 0.55,
+          "reasoning": "General computer science literature may apply if the paper covers broader concepts.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Science General Literature"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 4569.234132766724,
+      "llm_time_ms": 4308.47,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10905,
+      "output_tokens": 197,
+      "total_tokens": 11102,
+      "h_distance": -1,
+      "old_predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 4.015270709991455,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7966859340667725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.457303047180176,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.281597375869751,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.767794132232666,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1272.6945877075195
+    },
+    {
+      "paper_id": "R651424",
+      "doi": "10.1007/s00799-021-00305-y",
+      "title": "CSO Classifier 3.0: a scalable unsupervised method for classifying documents in terms of research topics",
+      "abstract": "CSO Classifier 3.0: a scalable unsupervised method for classifying documents in terms of research topics",
+      "ground_truth_id": "R135",
+      "ground_truth_label": "Databases/Information Systems",
+      "ground_truth_path": [],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Semantic Web",
+          "field_id": "R141823",
+          "score": 0.95,
+          "reasoning": "The paper discusses a method for classifying documents, which aligns with the field of Semantic Web and information systems.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Semantic Web"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Digital Libraries",
+          "field_id": "R112120",
+          "score": 0.85,
+          "reasoning": "The focus on document classification relates to databases and information systems.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Digital Libraries"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computers and Society",
+          "field_id": "R112119",
+          "score": 0.75,
+          "reasoning": "The paper's topic on document classification can be connected to the broader field of computers and society.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computers and Society"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Science General Literature",
+          "field_id": "R112121",
+          "score": 0.65,
+          "reasoning": "General literature in computer science may encompass methods like the one described.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Science General Literature"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.55,
+          "reasoning": "While not specifically about machine learning, the method may involve ML techniques.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "response_time_ms": 6314.966440200806,
+      "llm_time_ms": 6043.37,
+      "taxonomy_lookup_ms": 0.05,
+      "input_tokens": 10919,
+      "output_tokens": 205,
+      "total_tokens": 11124,
+      "h_distance": -1,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.052412986755371,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.1758737564086914,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9605703353881836,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": -1
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.8656013011932373,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.850468635559082,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1210.8285427093506
+    },
+    {
+      "paper_id": "R228783",
+      "doi": "10.1186/s40538-021-00228-5",
+      "title": "Perennial forage legume cultivation and their above-ground mass management methods for weed suppression in arable organic cropping systems",
+      "abstract": "Perennial forage legume cultivation and their above-ground mass management methods for weed suppression in arable organic cropping systems",
+      "ground_truth_id": "R136173",
+      "ground_truth_label": "Ecology of Land Use",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Ecology of Land Use"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Agronomy and Crop Sciences",
+          "field_id": "R98",
+          "score": 0.95,
+          "reasoning": "Focus on perennial forage legume cultivation in cropping systems",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Agronomy and Crop Sciences"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Plant Biology",
+          "field_id": "R101",
+          "score": 0.75,
+          "reasoning": "Related to plant biology and legume species",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Plant Biology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Plant Breeding and Genetics",
+          "field_id": "R103",
+          "score": 0.65,
+          "reasoning": "Involves breeding and genetics of forage legumes",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Plant Breeding and Genetics"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Plant Pathology",
+          "field_id": "R102",
+          "score": 0.55,
+          "reasoning": "Potential relevance to plant pathology in organic systems",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Plant Pathology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Nanoscience and Nanotechnology",
+          "field_id": "R279",
+          "score": 0.1,
+          "reasoning": "Fallback",
+          "path": [
+            "Engineering",
+            "Nanoscience and Nanotechnology"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 6152.845859527588,
+      "llm_time_ms": 5884.12,
+      "taxonomy_lookup_ms": 0.04,
+      "input_tokens": 10917,
+      "output_tokens": 162,
+      "total_tokens": 11079,
+      "h_distance": 4,
+      "old_predictions": [
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 4.576733589172363,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.987685203552246,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.8677258491516113,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.6905629634857178,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 3.0350754261016846,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1364.6471500396729
+    },
+    {
+      "paper_id": "R757010",
+      "doi": "10.1007/s41060-022-00347-8",
+      "title": "From data to interpretable models: machine learning for soil moisture forecasting",
+      "abstract": "From data to interpretable models: machine learning for soil moisture forecasting",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.95,
+          "reasoning": "The paper discusses machine learning methods for forecasting, which aligns with the Machine Learning field.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Soil Science",
+          "field_id": "R153",
+          "score": 0.85,
+          "reasoning": "Soil moisture forecasting is closely related to soil science, making Soil Science a relevant field.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Soil Science"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Biogeochemistry",
+          "field_id": "R143",
+          "score": 0.75,
+          "reasoning": "The study of soil moisture can involve biogeochemical processes, linking it to Biogeochemistry.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Biogeochemistry"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Graphics",
+          "field_id": "R136",
+          "score": 0.65,
+          "reasoning": "The application of machine learning in environmental contexts can relate to Environmental Sciences.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Graphics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Agricultural Economics, Agricultural Policy, Agricultural Sociology",
+          "field_id": "R136178",
+          "score": 0.55,
+          "reasoning": "The paper may touch on agricultural aspects, connecting it to Agricultural Economics.",
+          "path": [
+            "Life Sciences",
+            "Agriculture, Forestry and Veterinary Medicine",
+            "Agricultural Economics, Agricultural Policy, Agricultural Sociology"
+          ],
+          "h_distance": 2
+        }
+      ],
+      "response_time_ms": 4577.997446060181,
+      "llm_time_ms": 4308.03,
+      "taxonomy_lookup_ms": 0.06,
+      "input_tokens": 10908,
+      "output_tokens": 204,
+      "total_tokens": 11112,
+      "h_distance": 7,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7706260681152344,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.670124053955078,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.571702480316162,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.456266403198242,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.433530330657959,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1178.4799098968506
+    },
+    {
+      "paper_id": "R756304",
+      "doi": "10.1007/s11440-023-02166-y",
+      "title": "A graph-based approach for modeling the soil–water retention curve of granular soils across the entire suction range",
+      "abstract": "A graph-based approach for modeling the soil–water retention curve of granular soils across the entire suction range",
+      "ground_truth_id": "R136177",
+      "ground_truth_label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Agriculture, Forestry and Veterinary Medicine",
+        "Plant Cultivation, Plant Nutrition, Agricultural Technology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Soil Science",
+          "field_id": "R153",
+          "score": 0.95,
+          "reasoning": "focus on soil science and soil-water retention",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Soil Science"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Biogeochemistry",
+          "field_id": "R143",
+          "score": 0.85,
+          "reasoning": "involves biogeochemistry related to soil properties",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Biogeochemistry"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Environmental Sciences",
+          "field_id": "R145",
+          "score": 0.75,
+          "reasoning": "addresses environmental sciences related to soil",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Environmental Sciences"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Geology",
+          "field_id": "R146",
+          "score": 0.65,
+          "reasoning": "includes geology aspects relevant to soil composition",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Geology"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Tectonics and Structure",
+          "field_id": "R154",
+          "score": 0.55,
+          "reasoning": "pertains to tectonics which can influence soil characteristics",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Earth Sciences",
+            "Tectonics and Structure"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "response_time_ms": 3352.3008823394775,
+      "llm_time_ms": 3081.47,
+      "taxonomy_lookup_ms": 0.07,
+      "input_tokens": 10915,
+      "output_tokens": 161,
+      "total_tokens": 11076,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 5.6391987800598145,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 5.364851951599121,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 4.929075241088867,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computational Engineering",
+          "field_id": "R277",
+          "score": 4.458032608032227,
+          "path": [
+            "Engineering",
+            "Computational Engineering"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.770989418029785,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1134.2103481292725
+    },
+    {
+      "paper_id": "R678672",
+      "doi": "10.1038/s41598-023-34981-4",
+      "title": "From language models to large-scale food and biomedical knowledge graphs",
+      "abstract": "From language models to large-scale food and biomedical knowledge graphs",
+      "ground_truth_id": "R31",
+      "ground_truth_label": "Public Health",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Medicine",
+        "Public Health, Health Services Research, Social Medicine"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.95,
+          "reasoning": "The paper discusses language models, which aligns with computational linguistics.",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Ordinary Differential Equations and Applied Dynamics",
+          "field_id": "R114",
+          "score": 0.85,
+          "reasoning": "The mention of knowledge graphs suggests a connection to applied mathematics and data structures.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Applied Mathematics",
+            "Ordinary Differential Equations and Applied Dynamics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Quantitative Methods)",
+          "field_id": "R114147",
+          "score": 0.75,
+          "reasoning": "The paper's focus on biomedical knowledge indicates relevance to quantitative methods in integrated biomedical sciences.",
+          "path": [
+            "Life Sciences",
+            "Biology/Integrated Biology/ Integrated Biomedical Sciences",
+            "Quantitative Methods)"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Graphics",
+          "field_id": "R136",
+          "score": 0.65,
+          "reasoning": "The integration of food knowledge suggests a link to applied mathematics in food science.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Graphics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Ecology and Biodiversity of Plants and Ecosystems",
+          "field_id": "R136191",
+          "score": 0.55,
+          "reasoning": "The paper's implications for food knowledge may relate to ecology and biodiversity of plants.",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Ecology and Biodiversity of Plants and Ecosystems"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 5537.738800048828,
+      "llm_time_ms": 5265.94,
+      "taxonomy_lookup_ms": 0.04,
+      "input_tokens": 10906,
+      "output_tokens": 198,
+      "total_tokens": 11104,
+      "h_distance": 6,
+      "old_predictions": [
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.3909835815429688,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0947015285491943,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.081822395324707,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 2.9014317989349365,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5186610221862793,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1209.8283767700195
+    },
+    {
+      "paper_id": "R659165",
+      "doi": "10.1007/s11761-022-00356-2",
+      "title": "A core IoT ontology for automation support in edge computing",
+      "abstract": "A core IoT ontology for automation support in edge computing",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computers and Society",
+          "field_id": "R112119",
+          "score": 0.95,
+          "reasoning": "focus on IoT and its implications for society",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computers and Society"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Digital Libraries",
+          "field_id": "R112120",
+          "score": 0.85,
+          "reasoning": "related to databases and information systems in edge computing",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Databases/Information Systems",
+            "Digital Libraries"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 0.75,
+          "reasoning": "potential applications of machine learning in IoT",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Automation, Control Systems, Robotics, Mechatronics, Cyber Physical Systems",
+          "field_id": "R137670",
+          "score": 0.65,
+          "reasoning": "systems engineering aspects of IoT and edge computing",
+          "path": [
+            "Engineering",
+            "Operations Research, Systems Engineering and Industrial Engineering",
+            "Systems Engineering",
+            "Automation, Control Systems, Robotics, Mechatronics, Cyber Physical Systems"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Operating, Communication, Database and Distributed Systems",
+          "field_id": "R137679",
+          "score": 0.55,
+          "reasoning": "operating systems and networks relevant to edge computing",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Operating, Communication, Database and Distributed Systems"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 4850.935935974121,
+      "llm_time_ms": 4586.75,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10906,
+      "output_tokens": 169,
+      "total_tokens": 11075,
+      "h_distance": 5,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.2926576137542725,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.089916467666626,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.943965196609497,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 2.782845973968506,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.6555142402648926,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1277.3139476776123
+    },
+    {
+      "paper_id": "R640579",
+      "doi": "10.1038/s41598-023-31412-2",
+      "title": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+      "abstract": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+      "ground_truth_id": "R277",
+      "ground_truth_label": "Computational Engineering",
+      "ground_truth_path": [
+        "Engineering",
+        "Computational Engineering"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.95,
+          "reasoning": "The paper focuses on using a large language model, which relates to text mining and computational linguistics.",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Epidemiology",
+          "field_id": "R33",
+          "score": 0.85,
+          "reasoning": "The research is in the field of gastroenterology, which falls under public health.",
+          "path": [
+            "Life Sciences",
+            "Public Health",
+            "Epidemiology"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Public Health, Health Services Research, Social Medicine",
+          "field_id": "R136135",
+          "score": 0.75,
+          "reasoning": "The study relates to health services research, relevant to gastroenterology.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Public Health, Health Services Research, Social Medicine"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Radiology, Nuclear Medicine, Radiotherapy, Radiobiology",
+          "field_id": "R136139",
+          "score": 0.65,
+          "reasoning": "The paper may touch on aspects of medical informatics in relation to gastroenterology.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Radiology, Nuclear Medicine, Radiotherapy, Radiobiology"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Epidemiology and Medical Biometry/Statistics",
+          "field_id": "R136134",
+          "score": 0.55,
+          "reasoning": "The research could involve biostatistics in evaluating research questions.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Epidemiology and Medical Biometry/Statistics"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 4827.994823455811,
+      "llm_time_ms": 4565.34,
+      "taxonomy_lookup_ms": 0.04,
+      "input_tokens": 10912,
+      "output_tokens": 203,
+      "total_tokens": 11115,
+      "h_distance": 5,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 4.335263729095459,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.093238353729248,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.908287763595581,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.9058334827423096,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.63995099067688,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1422.1477508544922
+    },
+    {
+      "paper_id": "R753856",
+      "doi": "10.1140/epjds/s13688-024-00467-0",
+      "title": "Multifaceted online coordinated behavior in the 2020 US presidential election",
+      "abstract": "Multifaceted online coordinated behavior in the 2020 US presidential election",
+      "ground_truth_id": "R278",
+      "ground_truth_label": "Information Science",
+      "ground_truth_path": [
+        "Engineering",
+        "Information Science"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "American Politics",
+          "field_id": "R333",
+          "score": 0.95,
+          "reasoning": "focus on political behavior and coordination during elections",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Political Science",
+            "American Politics"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Models and Methods",
+          "field_id": "R336",
+          "score": 0.85,
+          "reasoning": "analysis of political theory related to elections",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Political Science",
+            "Models and Methods"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "International Relations",
+          "field_id": "R335",
+          "score": 0.75,
+          "reasoning": "study of international relations and its impact on elections",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Political Science",
+            "International Relations"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Public Administration",
+          "field_id": "R339",
+          "score": 0.65,
+          "reasoning": "public administration aspects related to election behavior",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Public Affairs, Public Policy and Public Administration",
+            "Public Administration"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Comparative Politics",
+          "field_id": "R334",
+          "score": 0.55,
+          "reasoning": "comparative politics in the context of the US presidential election",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Political Science",
+            "Comparative Politics"
+          ],
+          "h_distance": 5
+        }
+      ],
+      "response_time_ms": 4056.5028190612793,
+      "llm_time_ms": 3792.44,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10909,
+      "output_tokens": 162,
+      "total_tokens": 11071,
+      "h_distance": 5,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.928957939147949,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2853174209594727,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 3.25659441947937,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.171994924545288,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 3.0372633934020996,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 3
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1259.253740310669
+    },
+    {
+      "paper_id": "R148131",
+      "doi": "10.1186/1471-2105-10-349",
+      "title": "Construction of an annotated corpus to support biomedical information extraction",
+      "abstract": "Construction of an annotated corpus to support biomedical information extraction",
+      "ground_truth_id": "R322",
+      "ground_truth_label": "Computational Linguistics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Linguistics",
+        "Computational Linguistics"
+      ],
+      "correct_top1": true,
+      "correct_top5": true,
+      "match_position": 1,
+      "accuracy_score": 1.0,
+      "predictions": [
+        {
+          "field": "Computational Linguistics",
+          "field_id": "R322",
+          "score": 0.95,
+          "reasoning": "The paper focuses on corpus annotation for biomedical information extraction, which aligns with computational linguistics.",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Linguistics",
+            "Computational Linguistics"
+          ],
+          "h_distance": 0
+        },
+        {
+          "field": "Ordinary Differential Equations and Applied Dynamics",
+          "field_id": "R114",
+          "score": 0.85,
+          "reasoning": "The paper may involve methods related to data analysis and extraction, relevant to applied mathematics.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Applied Mathematics",
+            "Ordinary Differential Equations and Applied Dynamics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Biotechnology",
+          "field_id": "R105",
+          "score": 0.75,
+          "reasoning": "The context of biomedical information extraction relates to biotechnology.",
+          "path": [
+            "Life Sciences",
+            "Biotechnology"
+          ],
+          "h_distance": 5
+        },
+        {
+          "field": "Medical Informatics and Medical Bioinformatics",
+          "field_id": "R136138",
+          "score": 0.65,
+          "reasoning": "The paper may touch on medical informatics, which is relevant to the field of medical bioinformatics.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Medical Informatics and Medical Bioinformatics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Adaptation and Self-Organizing Systems",
+          "field_id": "R114000",
+          "score": 0.55,
+          "reasoning": "The methods used for information extraction could relate to nonlinear sciences.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Physics",
+            "Nonlinear Sciences",
+            "Adaptation and Self-Organizing Systems"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "response_time_ms": 6092.21625328064,
+      "llm_time_ms": 5824.61,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10905,
+      "output_tokens": 199,
+      "total_tokens": 11104,
+      "h_distance": 0,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.7611186504364014,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Robotics",
+          "field_id": "R236",
+          "score": 3.033034563064575,
+          "path": [
+            "Engineering",
+            "Computer Engineering",
+            "Robotics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 2.822694778442383,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Controls and Control Theory",
+          "field_id": "R240",
+          "score": 2.5494298934936523,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Controls and Control Theory"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.522271156311035,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1315.4122829437256
+    },
+    {
+      "paper_id": "R172170",
+      "doi": "10.1007/s40881-021-00105-9",
+      "title": "Are women more generous than men? A meta-analysis",
+      "abstract": "Are women more generous than men? A meta-analysis",
+      "ground_truth_id": "R303",
+      "ground_truth_label": "Behavioral Economics",
+      "ground_truth_path": [
+        "Social and Behavioral Sciences",
+        "Economics",
+        "Behavioral Economics"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Family, Life Course, and Society",
+          "field_id": "R356",
+          "score": 0.95,
+          "reasoning": "focus on gender and social behavior",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Sociology",
+            "Family, Life Course, and Society"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Plasma and Beam Physics",
+          "field_id": "R185",
+          "score": 0.85,
+          "reasoning": "explores psychological aspects of generosity",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Physics",
+            "Plasma and Beam Physics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Non-linear Dynamics",
+          "field_id": "R111",
+          "score": 0.75,
+          "reasoning": "involves behavioral analysis",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Applied Mathematics",
+            "Non-linear Dynamics"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Communication Neuroscience",
+          "field_id": "R111778",
+          "score": 0.65,
+          "reasoning": "relates to cognitive aspects of generosity",
+          "path": [
+            "Life Sciences",
+            "Neuroscience and Neurobiology",
+            "Cognitive Neuroscience",
+            "Communication Neuroscience"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Work, Economy and Organizations",
+          "field_id": "R370",
+          "score": 0.55,
+          "reasoning": "touches on social influences in economics",
+          "path": [
+            "Social and Behavioral Sciences",
+            "Sociology",
+            "Work, Economy and Organizations"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 3206.010580062866,
+      "llm_time_ms": 2935.66,
+      "taxonomy_lookup_ms": 0.05,
+      "input_tokens": 10905,
+      "output_tokens": 152,
+      "total_tokens": 11057,
+      "h_distance": 4,
+      "old_predictions": [
+        {
+          "field": "Computer Sciences",
+          "field_id": "",
+          "score": 3.849365234375,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Computer Vision and Pattern Recognition",
+          "field_id": "R112118",
+          "score": 3.2142176628112793,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer Vision and Pattern Recognition"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Signal Processing",
+          "field_id": "R246",
+          "score": 2.862961530685425,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Signal Processing"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Artificial Intelligence",
+          "field_id": "",
+          "score": 2.783216953277588,
+          "path": [],
+          "h_distance": -1
+        },
+        {
+          "field": "Machine Learning",
+          "field_id": "R112125",
+          "score": 2.670233964920044,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Machine Learning"
+          ],
+          "h_distance": 7
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1220.2279567718506
+    },
+    {
+      "paper_id": "R609861",
+      "doi": "10.1007/s10549-022-06828-5",
+      "title": "Changes in the survival of patients with breast cancer: Poland, 2000–2019",
+      "abstract": "Changes in the survival of patients with breast cancer: Poland, 2000–2019",
+      "ground_truth_id": "R33",
+      "ground_truth_label": "Epidemiology",
+      "ground_truth_path": [
+        "Life Sciences",
+        "Public Health",
+        "Epidemiology"
+      ],
+      "correct_top1": false,
+      "correct_top5": false,
+      "match_position": 0,
+      "accuracy_score": 0.0,
+      "predictions": [
+        {
+          "field": "Epidemiology and Medical Biometry/Statistics",
+          "field_id": "R136134",
+          "score": 0.95,
+          "reasoning": "The paper discusses survival rates in breast cancer, which relates to epidemiology and medical biometry.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Epidemiology and Medical Biometry/Statistics"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Public Health, Health Services Research, Social Medicine",
+          "field_id": "R136135",
+          "score": 0.85,
+          "reasoning": "The study is focused on public health aspects of breast cancer survival.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Public Health, Health Services Research, Social Medicine"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Plant Cell and Developmental Biology",
+          "field_id": "R136141",
+          "score": 0.75,
+          "reasoning": "Breast cancer is a significant topic in medical research, particularly in the context of human health.",
+          "path": [
+            "Life Sciences",
+            "Plant Sciences",
+            "Plant Cell and Developmental Biology"
+          ],
+          "h_distance": 4
+        },
+        {
+          "field": "Computer and Systems Architecture",
+          "field_id": "R134",
+          "score": 0.65,
+          "reasoning": "The paper may involve statistical analysis related to patient survival data.",
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Computer and Systems Architecture"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Pneumology, Thoracic Surgery",
+          "field_id": "R136146",
+          "score": 0.55,
+          "reasoning": "The research may touch on integrated biomedical sciences relevant to cancer studies.",
+          "path": [
+            "Life Sciences",
+            "Medicine",
+            "Pneumology, Thoracic Surgery"
+          ],
+          "h_distance": 4
+        }
+      ],
+      "response_time_ms": 4788.6247634887695,
+      "llm_time_ms": 4529.38,
+      "taxonomy_lookup_ms": 0.03,
+      "input_tokens": 10913,
+      "output_tokens": 200,
+      "total_tokens": 11113,
+      "h_distance": 4,
+      "old_predictions": [
+        {
+          "field": "Bioinformatics",
+          "field_id": "R104",
+          "score": 2.892927408218384,
+          "path": [
+            "Life Sciences",
+            "Bioinformatics"
+          ],
+          "h_distance": 3
+        },
+        {
+          "field": "Engineering",
+          "field_id": "R137546",
+          "score": 2.8763980865478516,
+          "path": [
+            "Engineering",
+            "Production Technology",
+            "Plastics Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Natural Language Processing",
+          "field_id": "R145261",
+          "score": 2.4258689880371094,
+          "path": [
+            "Physical Sciences & Mathematics",
+            "Computer Sciences",
+            "Artificial Intelligence",
+            "Natural Language Processing"
+          ],
+          "h_distance": 7
+        },
+        {
+          "field": "Computer Engineering",
+          "field_id": "R239",
+          "score": 2.4186856746673584,
+          "path": [
+            "Engineering",
+            "Electrical and Computer Engineering",
+            "Computer Engineering"
+          ],
+          "h_distance": 6
+        },
+        {
+          "field": "Earth Sciences",
+          "field_id": "",
+          "score": 2.3954567909240723,
+          "path": [],
+          "h_distance": -1
+        }
+      ],
+      "old_correct_top1": false,
+      "old_correct_top5": false,
+      "old_match_position": 0,
+      "old_accuracy_score": 0.0,
+      "old_response_time_ms": 1236.0641956329346
+    }
+  ]
+}

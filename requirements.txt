@@ -1,0 +1,16 @@
+# Core dependencies (required)
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+httpx>=0.24.0
+aiohttp>=3.8.0
+python-dotenv>=1.0.0
+
+# Data processing (required)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization (optional - only needed for evaluation/visualization.py)
+# Install separately if needed: pip install matplotlib
+# matplotlib>=3.7.0

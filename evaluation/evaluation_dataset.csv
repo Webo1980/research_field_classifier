@@ -1,0 +1,16 @@
+paper_id,doi,title,research_field_id,research_field_name,validated_url
+R700952,10.1007/s00330-021-07715-1,A deep learning algorithm using CT images to screen for Corona virus disease (COVID-19),R112118,Computer Vision and Pattern Recognition,http://dx.doi.org/10.1007/s00330-021-07715-1
+R700920,10.1038/s41598-020-76282-0,Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography,R112118,Computer Vision and Pattern Recognition,http://dx.doi.org/10.1038/s41598-020-76282-0
+R642635,10.12688/f1000research.24164.1,Online dashboard and data analysis approach for assessing COVID-19 case and death data,R112123,Human Computer Interfaces,http://dx.doi.org/10.12688/f1000research.24164.1
+R692195,10.1038/s41467-023-44599-9,A dynamic knowledge graph approach to distributed self-driving laboratories,R135,Databases/Information Systems,http://dx.doi.org/10.1038/s41467-023-44599-9
+R651424,10.1007/s00799-021-00305-y,CSO Classifier 3.0: a scalable unsupervised method for classifying documents in terms of research topics,R135,Databases/Information Systems,http://dx.doi.org/10.1007/s00799-021-00305-y
+R228783,10.1186/s40538-021-00228-5,Perennial forage legume cultivation and their above-ground mass management methods for weed suppression in arable organic cropping systems,R136173,Ecology of Land Use,http://dx.doi.org/10.1186/s40538-021-00228-5
+R757010,10.1007/s41060-022-00347-8,From data to interpretable models: machine learning for soil moisture forecasting,R136177,"Plant Cultivation, Plant Nutrition, Agricultural Technology",http://dx.doi.org/10.1007/s41060-022-00347-8
+R756304,10.1007/s11440-023-02166-y,A graph-based approach for modeling the soil–water retention curve of granular soils across the entire suction range,R136177,"Plant Cultivation, Plant Nutrition, Agricultural Technology",http://dx.doi.org/10.1007/s11440-023-02166-y
+R678672,10.1038/s41598-023-34981-4,From language models to large-scale food and biomedical knowledge graphs,R31,Public Health,http://dx.doi.org/10.1038/s41598-023-34981-4
+R659165,10.1007/s11761-022-00356-2,A core IoT ontology for automation support in edge computing,R277,Computational Engineering,"https://link.springer.com/article/10.1007/s11761-022-00356-2#:~:text=This%20ontology%20involves%20semantic%20concepts,topology%2C%20breakdown%2C%20mobility)."
+R640579,10.1038/s41598-023-31412-2,Evaluating the use of large language model in identifying top research questions in gastroenterology,R277,Computational Engineering,https://www.nature.com/articles/s41598-023-31412-2
+R753856,10.1140/epjds/s13688-024-00467-0,Multifaceted online coordinated behavior in the 2020 US presidential election,R278,Information Science,http://dx.doi.org/10.1140/epjds/s13688-024-00467-0
+R148131,10.1186/1471-2105-10-349,Construction of an annotated corpus to support biomedical information extraction,R322,Computational Linguistics,https://link.springer.com/article/10.1186/1471-2105-10-349
+R172170,10.1007/s40881-021-00105-9,Are women more generous than men? A meta-analysis,R303,Behavioral Economics,http://dx.doi.org/10.1007/s40881-021-00105-9
+R609861,10.1007/s10549-022-06828-5,"Changes in the survival of patients with breast cancer: Poland, 2000–2019",R33,Epidemiology,http://dx.doi.org/10.1007/s10549-022-06828-5
